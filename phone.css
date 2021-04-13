@@ -1,0 +1,118 @@
+#navbar{  
+    /* width: 180; */
+    flex-direction: column; 
+    height: 100px;
+}      
+#logo img{ 
+    width: 50px; 
+    height: 50px; 
+    margin: 2px 2px;
+} 
+#navbar ul li{ 
+    margin: 2px 12px; 
+    font-size: 12px;
+}
+#navbar ul li a{ 
+    font-size: 11px; 
+    padding : 0px 0px; 
+    border-radius: 4px;
+}
+#home::before{ 
+    height: 330px;
+} 
+
+#home{  
+     height: 290px;  
+     /* width: 360px; */
+    flex-direction: column;  
+    padding: 3px 78px; 
+
+} 
+#home p {  
+    padding-top: 5px ;
+    font-size: 13px;
+} 
+.primary{ 
+    font-size: 18px; 
+    padding: 2px; 
+    text-shadow: 5px 5px 5px tomato;
+ } 
+ .btn{  
+     font-size: 11px;
+     padding : 4px 4px;  
+     margin: 14px;
+
+ }
+.services{   
+    flex-direction: column;
+    padding: 4px;
+}  
+.box1{ 
+    margin: 8px; 
+    border-radius: 14px;
+}
+.box2{ 
+    margin: 8px; 
+    border-radius: 14px;
+}
+.box3{ 
+    margin: 8px; 
+    border-radius: 14px;
+} 
+.services img {
+    height : 100px; 
+    width: 100px; 
+    border-radius: 10px; 
+}   
+h2{ 
+    padding-top: 3px;
+}  
+.services p{ 
+    text-align: center; 
+    font-size: 12px;  
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    
+}    
+.connectus {
+    margin: -2px 5px;  
+}  
+.connect h1 { 
+    font-size: 30px;   
+}  
+.connectus .instagram{ 
+    /* border: 2px solid red;  */
+    margin: 3px 3px 3px 3px; 
+}
+.connectus .facebook{ 
+    /* border: 2px solid red;  */
+    margin: 3px 3px 3px 3px;
+}
+
+.connectus .twitter{ 
+    /* border: 2px solid red;  */
+    margin: 3px 3px 3px 3px;
+}.connectus img{ 
+    height: 50px; 
+    width: 50px;  
+    /* border-radius: 100px;   */
+    padding: 20px 20px 20px; 
+    border-radius: 30px;
+} 
+.connectus .instagram h3 a{ 
+    padding-left: 10px; 
+    font-size: 15px; 
+}
+.connectus .facebook h3 a{  
+    padding-left: 10px; 
+    font-size: 15px; 
+} 
+.connectus .twitter h3 a{ 
+    text-decoration: none; 
+    padding-left: 10px; 
+    font-size: 15px; 
+} 
+.connectus h3 a:hover{  
+    border-radius: 5px;
+} 
+

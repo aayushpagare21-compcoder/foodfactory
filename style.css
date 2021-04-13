@@ -1,0 +1,227 @@
+/* CSS RESET */ 
+*{  
+    margin : 0px; 
+    padding : 0px; 
+}   
+/* body */ 
+body{ 
+    /* border: 2px solid red;; */
+}
+ /* navigation menu */
+#navbar {   
+    /* border : 2px solid red; */
+    display: flex;  
+    position: relative; 
+    /* top: 0; */
+    align-items: center; 
+    height: 160px;
+}  
+#navbar::before{ 
+    content:  ""; 
+    background-color: black; 
+    position : absolute; 
+    height: 100%; 
+    width: 100%; 
+    z-index : -1; 
+    opacity: 0.6; 
+}
+ /* logo image  */
+#logo img{ 
+    width: 100px;
+    height: 100px;
+    margin: 26px 21px; 
+    border-radius: 100px;
+} 
+ /* list items */ 
+ #navbar ul { 
+    display: flex;
+ } 
+ #navbar ul li{ 
+    margin: 10px 20px; 
+    list-style: none; 
+    font-size: 1.3rem;
+ } 
+ #navbar ul li a{ 
+     display: block; 
+     padding: 3px 2px; 
+     text-decoration: none;    
+     color: white; 
+     border-radius: 10px; 
+     font-family: 'Baloo 2', cursive;
+} 
+#navbar ul li a:hover{ 
+    color: black;
+    background-color: white; 
+} 
+
+
+/* section */ 
+#home{   
+    height: 700px;
+    display: flex; 
+    flex-direction: column; 
+    padding: 3px 200px; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+#home::before { 
+    content : ""; 
+    background: url('bg1.jpg') no-repeat center center/cover; 
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    z-index: -1;  
+    opacity : 4;
+}
+.primary { 
+    font-size: 2.8rem; 
+    padding: 12px; 
+    color: white; 
+    text-align: center; 
+    font-family: 'Baloo 2', cursive; 
+    font-weight: bolder; 
+    text-shadow: 10px 10px 10px tomato; 
+} 
+#home p{ 
+    color: white; 
+    text-align: center; 
+    font-size: 1.5rem; 
+    font-family: 'Baloo 2', cursive;
+}  
+.btn{ 
+    padding: 6px 20px; 
+    border:  2px solid white; 
+    background-color: green; 
+    color: white; 
+    margin: 27px; 
+    border-radius: 15px; 
+    font-size: 1.3rem; 
+} 
+.btn:hover{ 
+    cursor: pointer; 
+    background-color: brown;
+} 
+
+/* Section */  
+.ourservices{ 
+    /* margin: 34px;  */
+    display: flex; 
+    align-content: center; 
+    justify-content: center; 
+    /* flex-direction: row; */ 
+    
+}
+.services{  
+    display: flex;
+    /* border: 2px solid black;   */
+    width: 100%; 
+     padding : 33px;  */
+    /* margin: 33px; */
+} 
+.box1{ 
+    border: 2px solid red;  
+    margin: 8px; 
+    border-radius: 23px;; 
+    background-color: #f2f2f2f2;
+
+}
+.box2{ 
+    border: 2px solid red; 
+    margin: 8px; 
+    border-radius: 23px; 
+    background-color: #f2f2f2f2;
+}
+.box3{ 
+    border: 2px solid red; 
+    margin : 8px; 
+    border-radius: 23px; 
+    background-color: #f2f2f2f2;
+} 
+.services img {
+    height : 160px; 
+    width: 160px; 
+    border-radius: 100px; 
+    display: block; 
+    margin: auto; 
+    flex-direction: column;
+}  
+h2{ 
+    display: block; 
+    width: 100px; 
+    margin: auto; 
+    padding-top: 30px;  
+    font-family: 'Baloo 2', cursive;
+
+} 
+.services p{ 
+    text-align: center; 
+    font-size: 1rem;  
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    font-family: 'Baloo 2', cursive;
+}   
+
+/* connect us */ 
+.connectus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px 50px;  
+    /* height: 30%;  */
+    /* background: url('wood.jpg'); */
+     /* border-bottom: 2px solid red;  */
+    /* background-color: rgb(226, 222, 222); */
+} 
+.connect h1 { 
+    text-align: center; 
+    font-size: 3rem; 
+    font-family: 'Baloo 2', cursive;  
+} 
+.connectus .instagram{ 
+    /* border: 2px solid red;  */
+    margin: 30px 30px 30px 30px; 
+}
+.connectus .facebook{ 
+    /* border: 2px solid red;  */
+    margin: 30px 30px 30px 30px;
+}
+
+.connectus .twitter{ 
+    /* border: 2px solid red;  */
+    margin: 30px 30px 30px 30px;
+}
+
+.connectus img{ 
+    height: 100px; 
+    width: 100px;  
+    /* border-radius: 100px;   */
+    padding: 10px 10px 10px; 
+    border-radius: 300px;
+} 
+.connectus .instagram h3 a{ 
+    text-decoration: none;
+    padding-left: 10px; 
+    font-size: 1.5rem; 
+    font-family: 'Baloo 2', cursive; 
+    color:black;
+}
+.connectus .facebook h3 a{ 
+    text-decoration: none; 
+    padding-left: 10px; 
+    font-size: 1.5rem; 
+    font-family: 'Baloo 2', cursive; 
+    color: black;
+}
+.connectus .twitter h3 a{ 
+    text-decoration: none; 
+    padding-left: 20px; 
+    font-size: 1.5rem; 
+    font-family: 'Baloo 2', cursive; 
+    color: black;
+} 
+.connectus h3 a:hover{ 
+    color: white;
+    background-color: darkgreen;  
+    border-radius: 50px;
+} 
